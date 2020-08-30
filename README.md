@@ -1,10 +1,4 @@
-<<<<<<< HEAD
-# se_java_hut_practice
-Unit Test with Mutation Coverage
-=======
-# JAVA HUT Evaluation Practice
-
-Please create unit tests for SimpleClass.java, ModerateClass.java, HardClass.java.
+# JAVA Unit Test with Mutation Coverage
 
 Leaking code and coverage to classes used may result in poor quality tests and/or errors.
 A good UT should isolate the code tested.
@@ -35,12 +29,6 @@ To load the project,
 and click on "Reimport all gradle projects" icon.
 6. This should download all dependencies and build the project.
 
-## Instructions
-Open the project in IntelliJ IDEA
-You need to increase unit test coverage to 100% for the below methods
-
-Classes:  SimpleClass.java, ModerateClass.java, HardClass.java
-
 ## Required Tools
 Please note that, all tools are already pre installed on the host.
 
@@ -68,18 +56,3 @@ To see mutation coverage report,
       Windows:  "gradlew.bat clean pitest"
       Others:   "./gradlew clean pitest"
       this should generate pitest mutation coverage report under build/reports directory.
-
-## Instructions
- Open the project in IntelliJ IDEA, and increase unit test coverage to 100% the below classes.
-
-Easy Unit
-* Class: com.crossover.SimpleClass
-
-Medium Unit
-* Class: com.crossover.ModerateClass
-
-Hard Unit
-* Class:  com.crossover.HardClass
-
-You can review the solution provided in practice answers project, but better to attempt the unit tests yourself first.
->>>>>>> 3b2245b... initial commit
