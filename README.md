@@ -3,8 +3,6 @@
 Leaking code and coverage to classes used may result in poor quality tests and/or errors.
 A good UT should isolate the code tested.
 
-### const
-
 ## Project Frameworks
 
 * Gradle
